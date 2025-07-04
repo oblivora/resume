@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAN SHARMA</title>
+    <!-- Link to Google Fonts for Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom CSS for Inter font and basic body styling */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            color: #333; /* Dark gray text */
+            line-height: 1.6;
+        }
+        /* Ensure all elements have rounded corners */
+        * {
+            border-radius: 0.5rem; /* Apply rounded corners to all elements */
+        }
+        /* Specific styling for sections to ensure consistent padding and margin */
+        section {
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            background-color: #ffffff; /* White background for sections */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        h1, h2, h3 {
+            color: #1f2937; /* Darker heading color */
+            margin-bottom: 1rem;
+        }
+        ul {
+            list-style: none; /* Remove default list bullets */
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem; /* Indent list items */
+            position: relative;
+        }
+        ul li::before {
+            content: '•'; /* Custom bullet point */
+            color: #4f46e5; /* A nice purple for bullets */
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1.5em;
+            position: absolute;
+        }
+        .contact-info a {
+            color: #4f46e5; /* Purple for links */
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .experience-item, .education-item {
+            margin-bottom: 1.5rem;
+            padding-left: 1rem;
+            border-left: 4px solid #a78bfa; /* Light purple border */
+        }
+        .project-item {
+            margin-bottom: 1.5rem;
+            background-color: #f9fafb; /* Slightly different background for projects */
+            padding: 1rem;
+            border: 1px solid #e5e7eb;
+        }
+        .project-item a {
+            color: #4f46e5;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .project-item a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-6 md:p-8 lg:p-10">
+    <div class="max-w-4xl mx-auto">
+        <!-- Header Section -->
+        <header class="text-center mb-8 bg-white p-6 shadow-md rounded-lg">
+            <h1 class="text-4xl font-extrabold text-gray-900 mb-2">AMAN SHARMA</h1>
+            <p class="text-xl text-gray-600">B.tech Student</p>
+            <div class="mt-4 text-gray-700 contact-info">
+                <p>Email: <a href="mailto:aman9clean@gmail">aman9clean@gmail.com</a></p>
+                <p>Phone: +91 8603075007</p>
+                <p>Location: Patna, Bihar</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/kumar-aman-656119357/" target="_blank">https://www.linkedin.com/in/kumar-aman-656119357/</a></p>
+                
+            </div>
+        </header>
+
+        <!-- About Me Section -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4">About Me</h2>
+            <p class="text-gray-700">
+                I am a 2nd year B.tech student. I am doing my degree in Aeronautical Engineering from Bihar Engineering University, Patna.
+                I am passionate about aeroplanes or in Aerospace Engineering and want to grow my career in the same.
+                
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-gray-700">
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">Programming Languages:</h3>
+                    <ul>
+                        <li>Python</li>
+                        
+                        <li>HTML/CSS</li>
+                        
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">Frameworks & Libraries:</h3>
+                    <ul>
+                        <li>None</li>
+                        
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">Tools & Technologies:</h3>
+                    <ul>
+                        <li>Git/GitHub</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Experience</h2>
+            <div class="experience-item">
+                
+                <p class="text-gray-600 italic mb-2">I am looking for an online or remote internship.</p>
+                
+            </div>
+            
+            <!-- Add more experience items as needed -->
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Education</h2>
+            <div class="education-item">
+                <h3 class="text-xl font-semibold text-gray-800">University</h3>
+                <p class="text-gray-600 italic mb-2">Bihar Engineering University, Patna, Bihar, India</p>
+                <p class="text-gray-600 italic mb-2">Batch 2023-2027</p>
+            </div>
+            <!-- Add more education items as needed -->
+        </section>
+
+        <!-- Projects Section (Optional but Recommended) -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Projects</h2>
+            <div class="project-item">
+                <h3 class="text-xl font-semibold text-gray-800">None.</h3>
+                
+            </div>  
+            <!-- Add more project items as needed -->
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="text-center mt-8 text-gray-500 text-sm">
+            <p>&copy; <span id="current-year"></span> Aman Sharma. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Dynamically set the current year in the footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
